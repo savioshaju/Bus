@@ -1,0 +1,35 @@
+{
+  "name": "bus_bus",
+  "version": "1.0.0",
+  "description": "A new Flutter project.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  
+  "scripts": {
+  "start": "node backend/server.js",
+  "deploy": "gh-pages -d build/web"
+},
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/savioshaju/Bus-Bus.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/savioshaju/Bus-Bus/issues"
+  },
+  "homepage": "https://github.com/savioshaju/Bus-Bus#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.48.1",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
